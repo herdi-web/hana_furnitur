@@ -11,3 +11,20 @@
   --text-inverse: #faf7f2;
   --surface-card: #ffffff;
 }
+
+body {
+  font-family: "Inter";
+  background-color: var(--bg-base);
+}
+
+.navbar-toggler {
+  border: none;
+  box-shadow: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
