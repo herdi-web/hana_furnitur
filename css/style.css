@@ -10,10 +10,12 @@
   --text-secondary: #6f655b;
   --text-inverse: #faf7f2;
   --surface-card: #ffffff;
+  --font-heading: "DM Serif Display", serif;
+  --font-body: "DM Sans", sans-serif;
 }
 
 body {
-  font-family: "DM Sans";
+  font-family: var(--font-body);
   background-color: var(--bg-base);
 }
 
@@ -30,6 +32,5 @@ body {
 }
 
 #hero h1 {
-  font-family: "DM Serif Display";
-  font-size: 4rem;
+  font-family: var(--font-heading);
 }
