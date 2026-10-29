@@ -21,6 +21,23 @@ body {
   height: 5000px;
 }
 
+/* navbar */
+nav {
+  border-bottom: 2px solid var(--border-default);
+}
+
+nav .navbar-brand {
+  font-family: var(--font-heading);
+}
+
+nav .navbar-brand i {
+  width: 1.75rem;
+  height: 1.75rem;
+  font-size: 0.9rem;
+  background-color: var(--brand-oak);
+  color: var(--bg-base);
+}
+
 .navbar-toggler {
   border: none;
   box-shadow: none;
@@ -33,12 +50,46 @@ body {
   box-shadow: none;
 }
 
+/* hero */
+#hero .badge {
+  background-color: var(--brand-sage-soft);
+  color: var(--text-primary);
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+}
+
+#hero .badge span {
+  width: 7px;
+  height: 7px;
+  background-color: var(--brand-oak);
+}
+
 #hero h1 {
   font-family: var(--font-heading);
   font-weight: 400;
   font-size: 3rem;
   line-height: 1.15;
   max-width: 30rem;
+}
+
+#hero p {
+  color: var(--text-secondary);
+  max-width: 28rem;
+}
+
+#hero .cta a {
+  font-size: 0.8rem;
+  height: 2.5rem;
+}
+
+#hero img {
+  max-width: 30rem;
+}
+
+/* categories */
+#categories p {
+  color: var(--text-secondary);
+  max-width: 28rem;
 }
 
 #categories h2 {
