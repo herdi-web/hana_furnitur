@@ -40,3 +40,35 @@ body {
   line-height: 1.15;
   max-width: 30rem;
 }
+
+#categories h2 {
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+}
+
+#categories .category {
+  padding: 1.5rem;
+}
+
+#categories .category h4 {
+  font-size: 1.5rem;
+}
+
+#categories .category p {
+  color: var(--text-secondary);
+}
+
+#categories .category .arrow {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--surface-card);
+  border-radius: 50%;
+}
+
+#categories .category .arrow a {
+  color: var(--text-primary);
+  line-height: 1;
+}
