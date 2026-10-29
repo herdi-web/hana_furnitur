@@ -5,6 +5,7 @@
   --brand-sage-soft: #dce3d5;
   --brand-oak-dark: #735540;
   --brand-oak: #8c6a4f;
+  --brand-blush: #f1e2d5;
   --border-default: #e4dbcd;
   --text-primary: #3b342e;
   --text-secondary: #6f655b;
@@ -17,6 +18,7 @@
 body {
   font-family: var(--font-body);
   background-color: var(--bg-base);
+  height: 5000px;
 }
 
 .navbar-toggler {
