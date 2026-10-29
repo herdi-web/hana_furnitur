@@ -28,3 +28,8 @@ body {
   outline: none;
   box-shadow: none;
 }
+
+#hero h1 {
+  font-family: "DM Serif Display";
+  font-size: 4rem;
+}
