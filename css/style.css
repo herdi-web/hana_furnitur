@@ -92,7 +92,8 @@ nav .navbar-brand i {
   max-width: 28rem;
 }
 
-#categories h2 {
+#categories h2,
+#products h2 {
   font-family: var(--font-heading);
   font-size: 2.5rem;
 }
@@ -105,7 +106,8 @@ nav .navbar-brand i {
   font-size: 1.5rem;
 }
 
-#categories .category p {
+#categories .category p,
+#products p {
   color: var(--text-secondary);
 }
 
@@ -122,4 +124,22 @@ nav .navbar-brand i {
 #categories .category .arrow a {
   color: var(--text-primary);
   line-height: 1;
+}
+
+/* products */
+#products header {
+  margin-bottom: 2rem;
+}
+
+#products span {
+  color: var(--brand-oak-dark);
+}
+
+#products .see-all {
+  color: var(--brand-oak-dark);
+  text-decoration: none;
+}
+
+#products .product h4 {
+  margin: 0.8rem 0;
 }
