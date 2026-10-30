@@ -94,7 +94,8 @@ nav .navbar-brand i {
 
 #categories h2,
 #products h2,
-#service h2 {
+#service h2,
+#about h2 {
   font-family: var(--font-heading);
   font-size: 2.5rem;
 }
@@ -111,7 +112,8 @@ nav .navbar-brand i {
 
 #categories .category p,
 #products p,
-#service p {
+#service p,
+#about header p {
   color: var(--text-secondary);
 }
 
@@ -131,7 +133,8 @@ nav .navbar-brand i {
 }
 
 /* products */
-#products {
+#products,
+#about {
   background-color: var(--bg-sand);
 }
 
@@ -139,7 +142,8 @@ nav .navbar-brand i {
   margin-bottom: 2rem;
 }
 
-#products span {
+#products span,
+#about span {
   color: var(--brand-oak-dark);
 }
 
@@ -172,4 +176,14 @@ nav .navbar-brand i {
 .flip-x {
   display: inline-block;
   transform: scaleX(-1);
+}
+
+/* about */
+#about .checklist p {
+  color: var(--text-primary);
+}
+
+#about .checklist i {
+  color: var(--brand-oak);
+  font-size: 1.5rem;
 }
