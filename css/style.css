@@ -93,21 +93,25 @@ nav .navbar-brand i {
 }
 
 #categories h2,
-#products h2 {
+#products h2,
+#service h2 {
   font-family: var(--font-heading);
   font-size: 2.5rem;
 }
 
-#categories .category {
+#categories .category,
+#service .service {
   padding: 1.5rem;
 }
 
-#categories .category h4 {
+#categories .category h4,
+#service .service h4 {
   font-size: 1.5rem;
 }
 
 #categories .category p,
-#products p {
+#products p,
+#service p {
   color: var(--text-secondary);
 }
 
@@ -142,4 +146,26 @@ nav .navbar-brand i {
 
 #products .product h4 {
   margin: 0.8rem 0;
+}
+
+/* service */
+#service .service .icon {
+  background-color: var(--brand-sage-soft);
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+#service .service .icon .bi {
+  font-size: 1.3rem;
+  color: var(--brand-oak);
+}
+
+.flip-x {
+  display: inline-block;
+  transform: scaleX(-1);
 }
