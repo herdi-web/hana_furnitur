@@ -131,6 +131,10 @@ nav .navbar-brand i {
 }
 
 /* products */
+#products {
+  background-color: var(--bg-sand);
+}
+
 #products header {
   margin-bottom: 2rem;
 }
