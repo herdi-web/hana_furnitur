@@ -18,7 +18,7 @@
 body {
   font-family: var(--font-body);
   background-color: var(--bg-base);
-  height: 5000px;
+  height: 10000px;
 }
 
 /* navbar */
@@ -113,7 +113,8 @@ nav .navbar-brand i {
 #categories .category p,
 #products p,
 #service p,
-#about header p {
+#about header p,
+#cta p {
   color: var(--text-secondary);
 }
 
@@ -186,4 +187,14 @@ nav .navbar-brand i {
 #about .checklist i {
   color: var(--brand-oak);
   font-size: 1.5rem;
+}
+
+/* cta */
+#cta h3 {
+  font-size: 2rem;
+  font-family: var(--font-heading);
+}
+
+#cta .cta-card {
+  background-color: var(--brand-sage-soft);
 }
