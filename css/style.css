@@ -22,21 +22,23 @@ body {
   height: 10000px;
 }
 
+.brand .brand-logo {
+  font-family: var(--font-heading);
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+.brand .brand-logo i {
+  width: 1.8rem;
+  height: 1.8rem;
+  font-size: 1.3rem;
+  background-color: var(--brand-oak);
+  color: var(--bg-base);
+}
+
 /* navbar */
 nav {
   border-bottom: 2px solid var(--border-default);
-}
-
-nav .navbar-brand {
-  font-family: var(--font-heading);
-}
-
-nav .navbar-brand i {
-  width: 1.75rem;
-  height: 1.75rem;
-  font-size: 0.9rem;
-  background-color: var(--brand-oak);
-  color: var(--bg-base);
 }
 
 .navbar-toggler {
@@ -115,7 +117,8 @@ nav .navbar-brand i {
 #products p,
 #service p,
 #about header p,
-#cta p {
+#cta p,
+footer p {
   color: var(--text-secondary);
 }
 
@@ -198,4 +201,23 @@ nav .navbar-brand i {
 
 #cta .cta-card {
   background-color: var(--brand-sage-soft);
+}
+
+/* footer */
+footer {
+  background-color: var(--bg-footer);
+}
+
+footer .footer-top {
+  border-bottom: 2px solid var(--bg-clay);
+}
+
+.brand p {
+  max-width: 20rem;
+}
+
+footer .link a {
+  margin-top: 0.5rem;
+  text-decoration: none;
+  color: var(--text-secondary);
 }
